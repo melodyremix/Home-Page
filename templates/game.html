@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Screen</title>
+    <link rel="icon" type="image/x-icon" href="/static/complogo.png">
+    <link rel="icon" type="image/x-icon" href="/static/complogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+</head>
+<body style="margin-left: 0%; margin-right:0%; background-image: url(/static/trans-mainbkg.png);">
+  <div>
+    <div style="opacity: 100%">
+      <header>
+          <nav style="position:sticky;">
+            <ul style="list-style: none; background-color: rgb(204, 141, 47); text-align: center; width: 97.7%; margin-left:-8px; margin-top: -10px;align-content: center;">
+              <img src="{{url_for('static', filename='logo.png')}}" style="width: 7%; height:7%;">
+              <li style="display: inline-block; font-size: 50px; font-family: 'Pixelify Sans', sans-serif; padding-inline: 10%;"><a href="/" style="text-decoration: none; color: white;">Home</a></li>
+              <li style="display: inline-block; font-size: 50px; font-family: 'Pixelify Sans', sans-serif; padding-inline: 10%;"><a class="active" href="#" style="text-decoration: none; color: white;">Team</a></li>
+              <li style="display: inline-block; font-size: 50px; font-family: 'Pixelify Sans', sans-serif; padding-inline: 10%;"><a href="game" style="text-decoration: none; color: white;">Play</a></li>
+            </ul>
+          </nav>
+      </header>
+  </div>
+  <div>
+    <div style="align-content: center; display: grid; grid-template-columns: auto; padding: 5px; grid-row: 5px; margin-left: 35%;">
+      <img src="{{url_for('static', filename='topbun.png')}}" style="width: 48%;">
+      <img src="{{url_for('static', filename='patty.png')}}" style="width: 48%;">
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-45%, 80%); font-size: 80px; font-family: 'Pixelify Sans', sans-serif;"><a href="/" style="text-decoration: none; color: white;">Download!</div>
+      <img src="{{url_for('static', filename='bottombun.png')}}" style="width: 48%;">
+    </div>
+  </div>
+  </div>
+    <hr style="height:2px;border-width:0;color: navy; background-color: navy; margin-top: 8%; margin-bottom: -1%;">
+        <div style="display: inline;">
+            <img src="{{url_for('static', filename='textlogo.png')}}" alt="A blank image for now" style="align-content: center; padding: 10px;">
+            <img src="{{url_for('static', filename='lineup.png')}}" alt="A blank image for now" style="justify-content: right; margin-left: 33%;">
+        </div> 
+</body>
+</html>
